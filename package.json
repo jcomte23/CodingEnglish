@@ -1,5 +1,13 @@
 {
   "name": "english",
+  "description": "Your ally to learn English through programming.",
+  "keywords": ["learn", "english", "companion", "programming"],
+  "author": {
+    "name": "Javier Cómbita Téllez",
+    "email": "jcomte23@outlook.com",
+    "url": "https://javiercombita.com"
+  },
+  "license": "MIT",
   "private": true,
   "version": "0.0.0",
   "type": "module",
