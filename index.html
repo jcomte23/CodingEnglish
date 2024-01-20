@@ -24,6 +24,8 @@
     <h1 class="font-bold text-5xl mt-5 tracking-tight text-center">
       English for programmers
     </h1>
+    <button type="button" onclick="changeLanguage('es')">Español</button>
+    <button type="button" onclick="changeLanguage('en')">English</button>
   </header>
 
   <main class="max-w-screen-xl mx-auto px-5 ">
@@ -34,7 +36,7 @@
           <h1 class="m-4 text-2xl font-bold">A1</h1>
           <hr class="m-4 rounded-2xl border-t-2">
           <ul class="list-disc pl-9 pr-4 capitalize">
-            <li class="hover:text-blue-500"><a href="./src/a1/introduction.html">introduction</a></li>
+            <li class="hover:text-blue-500"><a href="./src/a1/introduction.html" data-i18n="introduction"></a></li>
             <li class="hover:text-blue-500"><a href="./src/a1/numbers.html">numbers</a></li>
             <li class="hover:text-blue-500"><a href="#">Pronouns</a></li>
             <li class="hover:text-blue-500"><a href="#">Verbo to be</a></li>
@@ -184,6 +186,7 @@
       </div>
     </div>
   </footer>
+  <script type="module" src="./src/js/translator.js"></script>
   <script type="module" src="./src/js/main.js"></script>
 </body>
 
