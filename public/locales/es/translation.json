@@ -1,10 +1,17 @@
 {
     "introduction": "introducción",
     "numbers":"números",
-    "present_simple":"presente simple",
+    "past_simple":"pasado simple",
+    "past_continous":"pasado continuo",
     "present_continuous":"presente continuo",
+    "present_simple":"presente simple",
+    "present_perfect":"presente perfecto",
     "pronouns":"pronombres",
+    "simple_future":"futuro simple",
     "verb_to_be":"verbo ser o estar",
     "wh_questions":"wh preguntas",
+    "frequently_asked_questions": "preguntas frecuentes",
+    "question_1": "¿Qué es esta plataforma?",
+    "answer_1": "This is a platform for learn english and to practice programing in the same time with a simple design but attractive for the students.",
     "":""
 }

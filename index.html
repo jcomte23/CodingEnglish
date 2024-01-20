@@ -26,15 +26,14 @@
     </h1>
   </header>
 
-  <div class="fixed top-0 right-0 py-4">
-    <button type="button" class="text-center mx-auto px-4 pt-2 hover:text-blue-500" onclick="changeLanguage('es')">
+  <div class="fixed top-0 right-0 py-4 px-2">
+    <button type="button" class="text-center hover:text-blue-500" onclick="changeLanguage('es')">
       <span class="block px-1 pt-1 pb-1">
         <span>ES</span>
         <span class="block text-xs pb-2">Español</span>
       </span>
     </button>
-  
-    <button type="button" class="text-center mx-auto px-4 pt-2 hover:text-blue-500" onclick="changeLanguage('en')">
+    <button type="button" class="text-center hover:text-blue-500" onclick="changeLanguage('en')">
       <span class="block px-1 pt-1 pb-1">
         <span>EN</span>
         <span class="block text-xs pb-2">English</span>
@@ -62,19 +61,20 @@
           </ul>
         </div>
       </article>
-      <!-- <article class="bg-blue-300 w-52 h-72 m-8 rounded-lg ">
+       <article class="bg-blue-300 w-52 h-72 m-8 rounded-lg ">
         <div
           class="bg-white dark:bg-gray-700 w-52 h-72 -m-2 hover:m-0 absolute rounded-lg shadow-lg hover:shadow-2xl transition-all duration-150 ease-out hover:ease-in ">
           <h1 class="m-4 text-2xl font-bold">A2</h1>
           <hr class="m-4 rounded-2xl border-t-2">
           <ul class="list-disc pl-9 pr-4">
-            <li class="hover:text-blue-500"><a href="#">Past Simple and Continuous</a></li>
-            <li class="hover:text-blue-500"><a href="#">Simple future</a></li>
-            <li class="hover:text-blue-500"><a href="#">Present perfect</a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="past_simple"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="past_continous"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="simple_future">Simple future</a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="present_perfect">Present perfect</a></li>
           </ul>
         </div>
       </article>
-      <article class="bg-blue-300 w-52 h-72 m-8 rounded-lg ">
+      <!--<article class="bg-blue-300 w-52 h-72 m-8 rounded-lg ">
         <div
           class="bg-white dark:bg-gray-700 w-52 h-72 -m-2 hover:m-0 absolute rounded-lg shadow-lg hover:shadow-2xl transition-all duration-150 ease-out hover:ease-in ">
           <h1 class="m-4 text-2xl font-bold">B1</h1>
@@ -135,15 +135,15 @@
 
     <section class="max-w-screen-xl mx-auto px-5 my-5">
       <article class="flex flex-col items-center">
-        <p class="text-neutral-700 dark:text-neutral-300 text-xl mt-3">
-          Frequenty asked questions
+        <p class="text-neutral-700 dark:text-neutral-300 text-xl mt-3 capitalize" data-i18n="frequently_asked_questions">
+          
         </p>
       </article>
       <article class="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
         <div class="py-5">
           <details class="group">
             <summary class="flex justify-between items-center font-medium cursor-pointer list-none">
-              <span> What is a this platform?</span>
+              <span data-i18n="question_1"></span>
               <span class="transition group-open:rotate-180">
                 <svg fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor"
                   stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24">
@@ -151,11 +151,10 @@
                 </svg>
               </span>
             </summary>
-            <p class="text-neutral-700 dark:text-neutral-300 mt-3 group-open:animate-fadeIn">
-              This is a platform for learn english and to practice programing in the same time with a simple design but
-              attractive for the students.
+            <p class="text-neutral-700 dark:text-neutral-300 mt-3 group-open:animate-fadeIn" data-i18n="answer_1">
             </p>
           </details>
+          
         </div>
       </article>
     </section>

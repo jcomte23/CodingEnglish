@@ -1,11 +1,19 @@
 {
     "introduction": "introduction",
     "numbers":"numbers",
-    "present_simple":"present simple",
+    "past_simple":"past simple",
+    "past_continous":"past continuous",
     "present_continuous":"present continuous",
+    "present_simple":"present simple",
+    "present_perfect":"present perfect",
     "pronouns":"pronouns",
+    "simple_future":"simple future",
     "verb_to_be":"verb to be",
     "wh_questions":"wh questions",
+    "frequently_asked_questions": "frequently asked questions",
+    "question_1": "What is a this platform?",
+    "answer_1": "Esta es una plataforma para aprender inglés y practicar programación al mismo tiempo con un diseño simple pero atractivo para los estudiantes.",
+
     "":""
     
 }
