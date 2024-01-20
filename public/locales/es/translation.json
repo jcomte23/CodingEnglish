@@ -1,3 +1,10 @@
 {
-    "introduction": "introducción"
+    "introduction": "introducción",
+    "numbers":"números",
+    "present_simple":"presente simple",
+    "present_continuous":"presente continuo",
+    "pronouns":"pronombres",
+    "verb_to_be":"verbo ser o estar",
+    "wh_questions":"wh preguntas",
+    "":""
 }
