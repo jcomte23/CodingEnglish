@@ -21,25 +21,27 @@
 
 <body class="bg-gray-200 dark:text-gray-100 dark:bg-gray-800">
   <header class="pb-5">
+    <div class="absolute top-0 right-0 py-6 px-2">
+      <button type="button" class="text-center hover:text-blue-500" onclick="changeLanguage('es')">
+        <span class="block px-1 pt-1 pb-1">
+          <span>ES</span>
+          <span class="block text-xs pb-2">Español</span>
+        </span>
+      </button>
+      <button type="button" class="text-center hover:text-blue-500" onclick="changeLanguage('en')">
+        <span class="block px-1 pt-1 pb-1">
+          <span>EN</span>
+          <span class="block text-xs pb-2">English</span>
+        </span>
+      </button>
+    </div>
     <h1 class="font-bold text-5xl mt-5 tracking-tight text-center">
-      English for programmers
+      Soft English
     </h1>
+
   </header>
 
-  <div class="fixed top-0 right-0 py-4 px-2">
-    <button type="button" class="text-center hover:text-blue-500" onclick="changeLanguage('es')">
-      <span class="block px-1 pt-1 pb-1">
-        <span>ES</span>
-        <span class="block text-xs pb-2">Español</span>
-      </span>
-    </button>
-    <button type="button" class="text-center hover:text-blue-500" onclick="changeLanguage('en')">
-      <span class="block px-1 pt-1 pb-1">
-        <span>EN</span>
-        <span class="block text-xs pb-2">English</span>
-      </span>
-    </button>
-  </div>
+ 
 
 
 
@@ -52,12 +54,12 @@
           <hr class="m-4 rounded-2xl border-t-2">
           <ul class="list-disc pl-9 pr-4 capitalize">
             <li class="hover:text-blue-500"><a href="./src/a1/introduction.html" data-i18n="introduction"></a></li>
-            <li class="hover:text-blue-500"><a href="./src/a1/numbers.html" data-i18n="numbers">numbers</a></li>
-            <li class="hover:text-blue-500"><a href="#" data-i18n="pronouns">pronouns</a></li>
-            <li class="hover:text-blue-500"><a href="#" data-i18n="verb_to_be">verb to be</a></li>
-            <li class="hover:text-blue-500"><a href="#" data-i18n="present_simple">present simple</a></li>
-            <li class="hover:text-blue-500"><a href="#" data-i18n="present_continuous">present continuous</a></li>
-            <li class="hover:text-blue-500"><a href="#" data-i18n="wh_questions">wh questions</a></li>
+            <li class="hover:text-blue-500"><a href="./src/a1/numbers.html" data-i18n="numbers"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="pronouns"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="verb_to_be"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="present_simple"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="present_continuous"></a></li>
+            <li class="hover:text-blue-500"><a href="#" data-i18n="wh_questions"></a></li>
           </ul>
         </div>
       </article>
@@ -108,7 +110,7 @@
           </ul>
         </div>
       </article>
-     <article class="bg-blue-300 w-52 h-72 m-8 rounded-lg ">
+      <article class="bg-blue-300 w-52 h-72 m-8 rounded-lg ">
         <div
           class="bg-white dark:bg-gray-700 w-52 h-72 -m-2 hover:m-0 absolute rounded-lg shadow-lg hover:shadow-2xl transition-all duration-150 ease-out hover:ease-in ">
           <h1 class="m-4 text-2xl font-bold">C2</h1>
@@ -121,12 +123,12 @@
       <article class="bg-blue-300 w-52 h-72 m-8 rounded-lg ">
         <div
           class="bg-white dark:bg-gray-700 w-52 h-72 -m-2 hover:m-0 absolute rounded-lg shadow-lg hover:shadow-2xl transition-all duration-150 ease-out hover:ease-in ">
-          <h1 class="m-4 text-2xl font-bold capitalize">verb tenses</h1>
+          <h1 class="m-4 text-2xl font-bold capitalize" data-i18n="verb_tenses"></h1>
           <hr class="m-4 rounded-2xl border-t-2">
           <ul class="list-disc pl-9 pr-4">
-            <li class="hover:text-blue-500 capitalize"><a href="#">simple time</a></li>
-            <li class="hover:text-blue-500 capitalize"><a href="#">continuous time</a></li>
-            <li class="hover:text-blue-500 capitalize"><a href="#">Perfect time</a></li>
+            <li class="hover:text-blue-500 capitalize"><a href="#" data-i18n="simple_time"></a></li>
+            <li class="hover:text-blue-500 capitalize"><a href="#" data-i18n="continuous_time"></a></li>
+            <li class="hover:text-blue-500 capitalize"><a href="#" data-i18n="perfect_time"></a></li>
           </ul>
         </div>
       </article>
