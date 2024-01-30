@@ -3,6 +3,16 @@
 @tailwind utilities;
 
 @media screen and (max-width:570px) {
+    header{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    main{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     #nav{
         display: none;
     }
