@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-
-
+@media screen and (max-width:570px) {
+    #nav{
+        display: none;
+    }
+}
