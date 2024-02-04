@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://1.bp.blogspot.com/-4nwa3x9A2ac/XnvFNKpoEuI/AAAAAAAALfY/gvc91CEPJ-wO5xnkP2IL4igkpwAefu9agCLcBGAsYHQ/s1600/poster2.png" width="300" alt="logo"></p>
 
-<p align="center">CodingEnglish: Where code meets language. A programming project designed to enhance your English learning while you immerse yourself in the fascinating world of programming.</p>
+<p align="center">:Where code meets language? A programming project designed to enhance your English learning while you immerse yourself in the fascinating world of programming.</p>
 
 ## Getting Started
 
