@@ -402,7 +402,7 @@ const loadComponentTbodyDaysOfTheWeek = () => {
             </tr>
             `
             switchTable = false
-        }else{
+        } else {
             tbodyDaysOfTheWeek.innerHTML += `
             <tr class="bg-white">
                 <td class="px-6 py-4 whitespace-nowrap  font-medium text-gray-900">${element.day}</td>
@@ -418,6 +418,106 @@ const loadComponentTbodyDaysOfTheWeek = () => {
         }
     })
 }
+
+const loadComponentTbodyMonthsOfTheYear = () => {
+    const monthsOfTheYear = [
+        {
+            month: "january",
+            pronunciation: "yánuari",
+            spanish: "enero"
+        },
+        {
+            month: "february",
+            pronunciation: "fébrari",
+            spanish: "febrero"
+        },
+        {
+            month: "march",
+            pronunciation: "march",
+            spanish: "marzo"
+        },
+        {
+            month: "april",
+            pronunciation: "eipril",
+            spanish: "abril"
+        },
+        {
+            month: "may",
+            pronunciation: "mei",
+            spanish: "mayo"
+        },
+        {
+            month: "june",
+            pronunciation: "yún",
+            spanish: "junio"
+        },
+        {
+            month: "july",
+            pronunciation: "yulai",
+            spanish: "julio"
+        },
+        {
+            month: "august",
+            pronunciation: "áogost",
+            spanish: "agosto"
+        },
+        {
+            month: "september",
+            pronunciation: "septémber",
+            spanish: "septiembre"
+        },
+        {
+            month: "october",
+            pronunciation: "octóber",
+            spanish: "octubre"
+        },
+        {
+            month: "november",
+            pronunciation: "novémber",
+            spanish: "noviembre"
+        },
+        {
+            month: "december",
+            pronunciation: "dicémber",
+            spanish: "diciembre"
+        }
+    ]
+    
+    const tbodyMonthsOfTheYear = document.getElementById("months-of-the-year")
+    tbodyMonthsOfTheYear.innerHTML = ""
+    let switchTable = true
+    monthsOfTheYear.forEach(element => {
+        if (switchTable) {
+            tbodyMonthsOfTheYear.innerHTML += `
+            <tr class="bg-gray-100">
+                <td class="px-6 py-4 whitespace-nowrap font-medium text-gray-900">${element.month}</td>
+                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    / ${element.pronunciation} /
+                </td>
+                <td class="capitalize text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    ${element.spanish}
+                </td>
+            </tr>
+            `
+            switchTable = false
+        } else {
+            tbodyMonthsOfTheYear.innerHTML += `
+            <tr class="bg-white">
+                <td class="px-6 py-4 whitespace-nowrap font-medium text-gray-900">${element.month}</td>
+                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    / ${element.pronunciation} /
+                </td>
+                <td class="capitalize text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    ${element.spanish}
+                </td>
+            </tr>
+            `
+            switchTable = true
+        }
+    })
+}
+
 loadComponentTbodyAlphabet()
 loadComponentTbodyColors()
 loadComponentTbodyDaysOfTheWeek()
+loadComponentTbodyMonthsOfTheYear()
