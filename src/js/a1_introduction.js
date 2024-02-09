@@ -168,131 +168,131 @@ const loadComponentTbodyColors = () => {
     const colors = [
         {
             color: "red",
-            hexadecimalColor:"#FF0000",
+            hexadecimalColor: "#FF0000",
             pronunciation: "red",
-            spanish:"rojo",
-            ishVersion:"reddish",
-            ishSpanish:"rojizo",
+            spanish: "rojo",
+            ishVersion: "reddish",
+            ishSpanish: "rojizo",
         },
         {
             color: "blue",
-            hexadecimalColor:"#0000FF",
+            hexadecimalColor: "#0000FF",
             pronunciation: "blu",
-            spanish:"azul",
-            ishVersion:"bludish",
-            ishSpanish:"azulado",
+            spanish: "azul",
+            ishVersion: "bludish",
+            ishSpanish: "azulado",
         },
         {
             color: "green",
-            hexadecimalColor:"#00FF00",
+            hexadecimalColor: "#00FF00",
             pronunciation: "griin",
-            spanish:"verde",
-            ishVersion:"greenish",
-            ishSpanish:"verdoso",
+            spanish: "verde",
+            ishVersion: "greenish",
+            ishSpanish: "verdoso",
         },
         {
             color: "yellow",
-            hexadecimalColor:"#FFFF00",
+            hexadecimalColor: "#FFFF00",
             pronunciation: "íelou",
-            spanish:"amarillo",
-            ishVersion:"yellowish",
-            ishSpanish:"amarillento",
+            spanish: "amarillo",
+            ishVersion: "yellowish",
+            ishSpanish: "amarillento",
         },
         {
             color: "purple",
-            hexadecimalColor:"#800080",
+            hexadecimalColor: "#800080",
             pronunciation: "purpol",
-            spanish:"morado",
-            ishVersion:"purplish",
-            ishSpanish:"moradizo",
+            spanish: "morado",
+            ishVersion: "purplish",
+            ishSpanish: "moradizo",
         },
         {
             color: "orange",
-            hexadecimalColor:"#FFA500",
+            hexadecimalColor: "#FFA500",
             pronunciation: "óranch",
-            spanish:"naraja",
-            ishVersion:"orangish",
-            ishSpanish:"anaranjado",
+            spanish: "naraja",
+            ishVersion: "orangish",
+            ishSpanish: "anaranjado",
         },
         {
             color: "orange",
-            hexadecimalColor:"#FFA500",
+            hexadecimalColor: "#FFA500",
             pronunciation: "óranch",
-            spanish:"naraja",
-            ishVersion:"orangish",
-            ishSpanish:"anaranjado",
+            spanish: "naraja",
+            ishVersion: "orangish",
+            ishSpanish: "anaranjado",
         },
         {
             color: "pink",
-            hexadecimalColor:"#FFC0CB",
+            hexadecimalColor: "#FFC0CB",
             pronunciation: "pink",
-            spanish:"rosa",
-            ishVersion:"pinkish",
-            ishSpanish:"rosado",
+            spanish: "rosa",
+            ishVersion: "pinkish",
+            ishSpanish: "rosado",
         },
         {
             color: "brown",
-            hexadecimalColor:"#A52A2A",
+            hexadecimalColor: "#A52A2A",
             pronunciation: "bráun",
-            spanish:"marrón",
-            ishVersion:"brownish",
-            ishSpanish:"marronáceo",
+            spanish: "marrón",
+            ishVersion: "brownish",
+            ishSpanish: "marronáceo",
         },
         {
             color: "gray",
-            hexadecimalColor:"#808080",
+            hexadecimalColor: "#808080",
             pronunciation: "grey ",
-            spanish:"gris",
-            ishVersion:"grayish",
-            ishSpanish:"grisáceo",
+            spanish: "gris",
+            ishVersion: "grayish",
+            ishSpanish: "grisáceo",
         },
         {
             color: "cyan",
-            hexadecimalColor:"#00FFFF",
+            hexadecimalColor: "#00FFFF",
             pronunciation: "saían",
-            spanish:"cian",
-            ishVersion:"cyanish",
-            ishSpanish:"cianoso",
+            spanish: "cian",
+            ishVersion: "cyanish",
+            ishSpanish: "cianoso",
         },
         {
             color: "magenta",
-            hexadecimalColor:"#FF00FF",
+            hexadecimalColor: "#FF00FF",
             pronunciation: "mayenta",
-            spanish:"magenta",
-            ishVersion:"magentish",
-            ishSpanish:"magentoso",
+            spanish: "magenta",
+            ishVersion: "magentish",
+            ishSpanish: "magentoso",
         },
         {
             color: "gold",
-            hexadecimalColor:"#FFD700",
+            hexadecimalColor: "#FFD700",
             pronunciation: "góld",
-            spanish:"dorado",
-            ishVersion:"goldish",
-            ishSpanish:"doradizo",
+            spanish: "dorado",
+            ishVersion: "goldish",
+            ishSpanish: "doradizo",
         },
         {
             color: "silver",
-            hexadecimalColor:"#C0C0C0",
+            hexadecimalColor: "#C0C0C0",
             pronunciation: "silver",
-            spanish:"plateado",
-            ishVersion:"silverish",
-            ishSpanish:"plateadizo",
+            spanish: "plateado",
+            ishVersion: "silverish",
+            ishSpanish: "plateadizo",
         },
         {
             color: "black",
-            hexadecimalColor:"#000000",
+            hexadecimalColor: "#000000",
             pronunciation: "blak",
-            spanish:"negro",
-            ishVersion:"blackish",
-            ishSpanish:"negruzco",
+            spanish: "negro",
+            ishVersion: "blackish",
+            ishSpanish: "negruzco",
         },
         {
             color: "white",
-            hexadecimalColor:"#FFFFFF",
+            hexadecimalColor: "#FFFFFF",
             pronunciation: "gúait",
-            spanish:"blanco",
-            ishVersion:"whitish",
-            ishSpanish:"blanquecino",
+            spanish: "blanco",
+            ishVersion: "whitish",
+            ishSpanish: "blanquecino",
         },
     ]
     const tbodyColors = document.getElementById("tbody-colors")
@@ -347,5 +347,77 @@ const loadComponentTbodyColors = () => {
     })
 }
 
+const loadComponentTbodyDaysOfTheWeek = () => {
+    const daysOfTheWeek = [
+        {
+            day: "monday",
+            pronunciation: "monday",
+            spanish: "lunes"
+        },
+        {
+            day: "tuesday",
+            pronunciation: "tiúsdei",
+            spanish: "martes"
+        },
+        {
+            day: "wednesday",
+            pronunciation: "uénsdei",
+            spanish: "miércoles"
+        },
+        {
+            day: "thursday",
+            pronunciation: "zérsdei",
+            spanish: "jueves"
+        },
+        {
+            day: "friday",
+            pronunciation: "fráidei",
+            spanish: "viernes"
+        },
+        {
+            day: "saturday",
+            pronunciation: "sárurdei",
+            spanish: "sábado"
+        },
+        {
+            day: "sunday",
+            pronunciation: "sandei",
+            spanish: "domingo"
+        }
+    ]
+    const tbodyDaysOfTheWeek = document.getElementById("days-of-the-week")
+    tbodyDaysOfTheWeek.innerHTML = ""
+    let switchTable = true
+    daysOfTheWeek.forEach(element => {
+        if (switchTable) {
+            tbodyDaysOfTheWeek.innerHTML += `
+            <tr class="bg-gray-100">
+                <td class="px-6 py-4 whitespace-nowrap  font-medium text-gray-900">${element.day}</td>
+                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    / ${element.pronunciation} /
+                </td>
+                <td class="capitalize text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    ${element.spanish}
+                </td>
+            </tr>
+            `
+            switchTable = false
+        }else{
+            tbodyDaysOfTheWeek.innerHTML += `
+            <tr class="bg-white">
+                <td class="px-6 py-4 whitespace-nowrap  font-medium text-gray-900">${element.day}</td>
+                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    / ${element.pronunciation} /
+                </td>
+                <td class="capitalize text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    ${element.spanish}
+                </td>
+            </tr>
+            `
+            switchTable = true
+        }
+    })
+}
 loadComponentTbodyAlphabet()
 loadComponentTbodyColors()
+loadComponentTbodyDaysOfTheWeek()
