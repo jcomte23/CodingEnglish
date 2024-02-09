@@ -1,4 +1,4 @@
-<h1 align="center">CodingEnglish</h1>
+<h1 align="center">SoftEnglish</h1>
 
 <p align="center"><img src="https://1.bp.blogspot.com/-4nwa3x9A2ac/XnvFNKpoEuI/AAAAAAAALfY/gvc91CEPJ-wO5xnkP2IL4igkpwAefu9agCLcBGAsYHQ/s1600/poster2.png" width="300" alt="logo"></p>
 
