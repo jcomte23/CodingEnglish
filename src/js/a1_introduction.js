@@ -308,7 +308,7 @@ const loadComponentTbodyColors = () => {
                         type="color" value="${element.hexadecimalColor}">
                     <label for="${element.color}">${element.color}</label><span${element.hexadecimalColor}</span>
                 </td>
-                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap lowercase">
                     / ${element.pronunciation} /
                 </td>
                 <td class="capitalize text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -330,7 +330,7 @@ const loadComponentTbodyColors = () => {
                         type="color" value="${element.hexadecimalColor}">
                     <label for="${element.color}">${element.color}</label><span${element.hexadecimalColor}</span>
                 </td>
-                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap lowercase">
                     / ${element.pronunciation} /
                 </td>
                 <td class="capitalize text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -393,7 +393,7 @@ const loadComponentTbodyDaysOfTheWeek = () => {
             tbodyDaysOfTheWeek.innerHTML += `
             <tr class="bg-gray-100">
                 <td class="px-6 py-4 whitespace-nowrap  font-medium text-gray-900">${element.day}</td>
-                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap lowercase">
                     / ${element.pronunciation} /
                 </td>
                 <td class="capitalize text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -406,7 +406,7 @@ const loadComponentTbodyDaysOfTheWeek = () => {
             tbodyDaysOfTheWeek.innerHTML += `
             <tr class="bg-white">
                 <td class="px-6 py-4 whitespace-nowrap  font-medium text-gray-900">${element.day}</td>
-                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap lowercase">
                     / ${element.pronunciation} /
                 </td>
                 <td class="capitalize text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -491,7 +491,7 @@ const loadComponentTbodyMonthsOfTheYear = () => {
             tbodyMonthsOfTheYear.innerHTML += `
             <tr class="bg-gray-100">
                 <td class="px-6 py-4 whitespace-nowrap font-medium text-gray-900">${element.month}</td>
-                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap lowercase">
                     / ${element.pronunciation} /
                 </td>
                 <td class="capitalize text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -504,7 +504,7 @@ const loadComponentTbodyMonthsOfTheYear = () => {
             tbodyMonthsOfTheYear.innerHTML += `
             <tr class="bg-white">
                 <td class="px-6 py-4 whitespace-nowrap font-medium text-gray-900">${element.month}</td>
-                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap lowercase">
                     / ${element.pronunciation} /
                 </td>
                 <td class="capitalize text-gray-900 font-light px-6 py-4 whitespace-nowrap">
