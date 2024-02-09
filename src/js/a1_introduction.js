@@ -1,134 +1,134 @@
-const loadComponentTbodyAlphabet= () => {
+const loadComponentTbodyAlphabet = () => {
     const alphabet = [
         {
             letter: "a",
-            pronuncitation: "eí",
+            pronunciation: "eí",
             military: "apha"
         },
         {
             letter: "b",
-            pronuncitation: "bí",
+            pronunciation: "bí",
             military: "bravo"
         },
         {
             letter: "c",
-            pronuncitation: "sí",
+            pronunciation: "sí",
             military: "charlie"
         },
         ,
         {
             letter: "d",
-            pronuncitation: "dí",
+            pronunciation: "dí",
             military: "delta"
         },
         {
             letter: "e",
-            pronuncitation: "í",
+            pronunciation: "í",
             military: "echo"
         },
         {
             letter: "f",
-            pronuncitation: "éf",
+            pronunciation: "éf",
             military: "foxtrot"
         },
         {
             letter: "g",
-            pronuncitation: "yí",
+            pronunciation: "yí",
             military: "golf"
         },
         {
             letter: "h",
-            pronuncitation: "éich",
+            pronunciation: "éich",
             military: "hotel"
         },
         {
             letter: "i",
-            pronuncitation: "ái",
+            pronunciation: "ái",
             military: "india"
         },
         {
             letter: "j",
-            pronuncitation: "yéi",
+            pronunciation: "yéi",
             military: "juliett"
         },
         {
             letter: "k",
-            pronuncitation: "kéi",
+            pronunciation: "kéi",
             military: "kilo"
         },
         {
             letter: "l",
-            pronuncitation: "él",
+            pronunciation: "él",
             military: "lima"
         },
         {
             letter: "m",
-            pronuncitation: "em",
+            pronunciation: "em",
             military: "mike"
         },
         {
             letter: "n",
-            pronuncitation: "en",
+            pronunciation: "en",
             military: "november"
         },
         {
             letter: "o",
-            pronuncitation: "óu",
+            pronunciation: "óu",
             military: "oscar"
         },
         {
             letter: "p",
-            pronuncitation: "pí",
+            pronunciation: "pí",
             military: "papa"
         },
         {
             letter: "q",
-            pronuncitation: "kiú",
+            pronunciation: "kiú",
             military: "quebec"
         },
         {
             letter: "r",
-            pronuncitation: "ar",
+            pronunciation: "ar",
             military: "romeo"
         },
         {
             letter: "s",
-            pronuncitation: "és",
+            pronunciation: "és",
             military: "sierra"
         },
         {
             letter: "t",
-            pronuncitation: "tí",
+            pronunciation: "tí",
             military: "tango"
         },
         {
             letter: "u",
-            pronuncitation: "iú",
+            pronunciation: "iú",
             military: "uniform"
         },
         {
             letter: "v",
-            pronuncitation: "ví",
+            pronunciation: "ví",
             military: "victor"
         },
         {
             letter: "w",
-            pronuncitation: "dábliu",
+            pronunciation: "dábliu",
             military: "whiskey"
         },
         {
             letter: "x",
-            pronuncitation: "ex",
+            pronunciation: "ex",
             military: "x-ray"
         },
         {
             letter: "y",
-            pronuncitation: "uái",
+            pronunciation: "uái",
             military: "yankee"
         },
         {
             letter: "z",
-            pronuncitation: "zíd",
+            pronunciation: "zíd",
             military: "zulu"
         }
     ]
@@ -137,31 +137,215 @@ const loadComponentTbodyAlphabet= () => {
     let switchTable = true
     alphabet.forEach(element => {
         if (switchTable) {
-            tbodyAlphabet.innerHTML +=`
+            tbodyAlphabet.innerHTML += `
             <tr class="bg-gray-100">
                 <td class="px-6 py-4 whitespace-nowrap font-medium text-gray-900 uppercase">${element.letter}</td>
                 <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                    / ${element.pronuncitation} /
+                    / ${element.pronunciation} /
                 </td>
                 <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap capitalize">
                 ${element.military}
                 </td>
             </tr>`
-            switchTable=false
-        }else{
+            switchTable = false
+        } else {
             tbodyAlphabet.innerHTML += `
             <tr class="bg-white">
                 <td class="px-6 py-4 whitespace-nowrap font-medium text-gray-900 uppercase">${element.letter}</td>
                 <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap">
-                    / ${element.pronuncitation} /
+                    / ${element.pronunciation} /
                 </td>
                 <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap capitalize">
                 ${element.military}
                 </td>
             </tr>`
-            switchTable=true
+            switchTable = true
+        }
+    })
+}
+
+const loadComponentTbodyColors = () => {
+    const colors = [
+        {
+            color: "red",
+            hexadecimalColor:"#FF0000",
+            pronunciation: "red",
+            spanish:"rojo",
+            ishVersion:"reddish",
+            ishSpanish:"rojizo",
+        },
+        {
+            color: "blue",
+            hexadecimalColor:"#0000FF",
+            pronunciation: "blu",
+            spanish:"azul",
+            ishVersion:"bludish",
+            ishSpanish:"azulado",
+        },
+        {
+            color: "green",
+            hexadecimalColor:"#00FF00",
+            pronunciation: "griin",
+            spanish:"verde",
+            ishVersion:"greenish",
+            ishSpanish:"verdoso",
+        },
+        {
+            color: "yellow",
+            hexadecimalColor:"#FFFF00",
+            pronunciation: "íelou",
+            spanish:"amarillo",
+            ishVersion:"yellowish",
+            ishSpanish:"amarillento",
+        },
+        {
+            color: "purple",
+            hexadecimalColor:"#800080",
+            pronunciation: "purpol",
+            spanish:"morado",
+            ishVersion:"purplish",
+            ishSpanish:"moradizo",
+        },
+        {
+            color: "orange",
+            hexadecimalColor:"#FFA500",
+            pronunciation: "óranch",
+            spanish:"naraja",
+            ishVersion:"orangish",
+            ishSpanish:"anaranjado",
+        },
+        {
+            color: "orange",
+            hexadecimalColor:"#FFA500",
+            pronunciation: "óranch",
+            spanish:"naraja",
+            ishVersion:"orangish",
+            ishSpanish:"anaranjado",
+        },
+        {
+            color: "pink",
+            hexadecimalColor:"#FFC0CB",
+            pronunciation: "pink",
+            spanish:"rosa",
+            ishVersion:"pinkish",
+            ishSpanish:"rosado",
+        },
+        {
+            color: "brown",
+            hexadecimalColor:"#A52A2A",
+            pronunciation: "bráun",
+            spanish:"marrón",
+            ishVersion:"brownish",
+            ishSpanish:"marronáceo",
+        },
+        {
+            color: "gray",
+            hexadecimalColor:"#808080",
+            pronunciation: "grey ",
+            spanish:"gris",
+            ishVersion:"grayish",
+            ishSpanish:"grisáceo",
+        },
+        {
+            color: "cyan",
+            hexadecimalColor:"#00FFFF",
+            pronunciation: "saían",
+            spanish:"cian",
+            ishVersion:"cyanish",
+            ishSpanish:"cianoso",
+        },
+        {
+            color: "magenta",
+            hexadecimalColor:"#FF00FF",
+            pronunciation: "mayenta",
+            spanish:"magenta",
+            ishVersion:"magentish",
+            ishSpanish:"magentoso",
+        },
+        {
+            color: "gold",
+            hexadecimalColor:"#FFD700",
+            pronunciation: "góld",
+            spanish:"dorado",
+            ishVersion:"goldish",
+            ishSpanish:"doradizo",
+        },
+        {
+            color: "silver",
+            hexadecimalColor:"#C0C0C0",
+            pronunciation: "silver",
+            spanish:"plateado",
+            ishVersion:"silverish",
+            ishSpanish:"plateadizo",
+        },
+        {
+            color: "black",
+            hexadecimalColor:"#000000",
+            pronunciation: "blak",
+            spanish:"negro",
+            ishVersion:"blackish",
+            ishSpanish:"negruzco",
+        },
+        {
+            color: "white",
+            hexadecimalColor:"#FFFFFF",
+            pronunciation: "gúait",
+            spanish:"blanco",
+            ishVersion:"whitish",
+            ishSpanish:"blanquecino",
+        },
+    ]
+    const tbodyColors = document.getElementById("tbody-colors")
+    tbodyColors.innerHTML = ""
+    let switchTable = true
+    colors.forEach(element => {
+        if (switchTable) {
+            tbodyColors.innerHTML += `
+            <tr class="bg-gray-100">
+                <td class="px-6 py-4 flex gap-3 items-center whitespace-nowrap font-medium text-gray-900">
+                    <input id="${element.color}"
+                        class="h-9 focus:outline-none transition-transform transform hover:scale-125 duration-300 cursor-pointer"
+                        type="color" value="${element.hexadecimalColor}">
+                    <label for="${element.color}">${element.color}</label><span${element.hexadecimalColor}</span>
+                </td>
+                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    / ${element.pronunciation} /
+                </td>
+                <td class="capitalize text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    ${element.spanish}
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap font-light text-gray-900">${element.ishVersion}</td>
+                <td class="capitalize text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    ${element.ishSpanish}
+                </td>
+            </tr>
+            `
+            switchTable = false
+        } else {
+            tbodyColors.innerHTML += `
+            <tr class="bg-white">
+                <td class="px-6 py-4 flex gap-3 items-center whitespace-nowrap font-medium text-gray-900">
+                    <input id="${element.color}"
+                        class="h-9 focus:outline-none transition-transform transform hover:scale-125 duration-300 cursor-pointer"
+                        type="color" value="${element.hexadecimalColor}">
+                    <label for="${element.color}">${element.color}</label><span${element.hexadecimalColor}</span>
+                </td>
+                <td class="text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    / ${element.pronunciation} /
+                </td>
+                <td class="capitalize text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    ${element.spanish}
+                </td>
+                <td class="px-6 py-4 whitespace-nowrap font-light text-gray-900">${element.ishVersion}</td>
+                <td class="capitalize text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                    ${element.ishSpanish}
+                </td>
+            </tr>
+            `
+            switchTable = true
         }
     })
 }
 
 loadComponentTbodyAlphabet()
+loadComponentTbodyColors()
