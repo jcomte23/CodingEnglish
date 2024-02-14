@@ -2,191 +2,191 @@ const loadComponentTbodyNumbers = () => {
     const numbers = [
         {
             number: 1,
-            pronunciation: "eí",
+            pronunciation: "uán",
             writtenNumber: "one"
         },
         {
             number: 2,
-            pronunciation: "dos",
+            pronunciation: "tu",
             writtenNumber: "two"
         },
         {
             number: 3,
-            pronunciation: "tres",
+            pronunciation: "tri",
             writtenNumber: "three"
         },
         {
             number: 4,
-            pronunciation: "cuatro",
+            pronunciation: "for",
             writtenNumber: "four"
         },
         {
             number: 5,
-            pronunciation: "cinco",
+            pronunciation: "fáiv",
             writtenNumber: "five"
         },
         {
             number: 6,
-            pronunciation: "seis",
+            pronunciation: "siks",
             writtenNumber: "six"
         },
         {
             number: 7,
-            pronunciation: "siete",
+            pronunciation: "séven",
             writtenNumber: "seven"
         },
         {
             number: 8,
-            pronunciation: "ocho",
+            pronunciation: "éit",
             writtenNumber: "eight"
         },
         {
             number: 9,
-            pronunciation: "nueve",
+            pronunciation: "náin",
             writtenNumber: "nine"
         },
         {
             number: 10,
-            pronunciation: "diez",
+            pronunciation: "tén",
             writtenNumber: "ten"
         },
         {
             number: 11,
-            pronunciation: "once",
+            pronunciation: "iléven",
             writtenNumber: "eleven"
         },
         {
             number: 12,
-            pronunciation: "doce",
+            pronunciation: "tuelf",
             writtenNumber: "twelve"
         },
         {
             number: 13,
-            pronunciation: "trece",
+            pronunciation: "tertín",
             writtenNumber: "thirteen"
         },
         {
             number: 14,
-            pronunciation: "catorce",
+            pronunciation: "fortín",
             writtenNumber: "fourteen"
         },
         {
             number: 15,
-            pronunciation: "quince",
+            pronunciation: "fiftín",
             writtenNumber: "fifteen"
         },
         {
             number: 16,
-            pronunciation: "dieciséis",
+            pronunciation: "sikstín",
             writtenNumber: "sixteen"
         },
         {
             number: 17,
-            pronunciation: "diecisiete",
+            pronunciation: "seventín",
             writtenNumber: "seventeen"
         },
         {
             number: 18,
-            pronunciation: "dieciocho",
+            pronunciation: "eightín",
             writtenNumber: "eighteen"
         },
         {
             number: 19,
-            pronunciation: "diecinueve",
+            pronunciation: "naintín",
             writtenNumber: "nineteen"
         },
         {
             number: 20,
-            pronunciation: "veinte",
+            pronunciation: "tueni",
             writtenNumber: "twenty"
         },
         {
             number: 21,
-            pronunciation: "veintiuno",
+            pronunciation: "tueni-uán",
             writtenNumber: "twenty-one"
         },
         {
             number: 22,
-            pronunciation: "veintidós",
+            pronunciation: "tueni-tu",
             writtenNumber: "twenty-two"
         },
         {
             number: 23,
-            pronunciation: "veintitrés",
+            pronunciation: "tueni-tri",
             writtenNumber: "twenty-three"
         },
         {
             number: 24,
-            pronunciation: "veinticuatro",
+            pronunciation: "tueni-for",
             writtenNumber: "twenty-four"
         },
         {
             number: 25,
-            pronunciation: "veinticinco",
+            pronunciation: "tueni-fáiv",
             writtenNumber: "twenty-five"
         },
         {
             number: 30,
-            pronunciation: "treinta",
+            pronunciation: "theri",
             writtenNumber: "thirty"
         },
         {
             number: 40,
-            pronunciation: "cuarenta",
+            pronunciation: "fóri",
             writtenNumber: "forty"
         },
         {
             number: 50,
-            pronunciation: "cincuenta",
+            pronunciation: "fífti",
             writtenNumber: "fifty"
         },
         {
             number: 60,
-            pronunciation: "sesenta",
+            pronunciation: "síksti",
             writtenNumber: "sixty"
         },
         {
             number: 70,
-            pronunciation: "setenta",
+            pronunciation: "séventi",
             writtenNumber: "seventy"
         },
         {
             number: 80,
-            pronunciation: "ochenta",
+            pronunciation: "éiri",
             writtenNumber: "eighty"
         },
         {
             number: 90,
-            pronunciation: "noventa",
+            pronunciation: "náiri",
             writtenNumber: "ninety"
         },
         {
             number: 100,
-            pronunciation: "cien",
+            pronunciation: "uán jondred",
             writtenNumber: "one hundred"
         },
         {
             number: 1000,
-            pronunciation: "mil",
+            pronunciation: "uán dousand",
             writtenNumber: "one thousand"
         },
         {
             number: 10000,
-            pronunciation: "diez mil",
+            pronunciation: "ten dousand",
             writtenNumber: "ten thousand"
         },
         {
             number: 100000,
-            pronunciation: "cien mil",
+            pronunciation: "uán jondred dousand",
             writtenNumber: "one hundred thousand"
         },
         {
             number: 1000000,
-            pronunciation: "un millón",
+            pronunciation: "uán milion",
             writtenNumber: "one million"
         }
     ]
-    tbodyNumbers = document.getElementById("tbody-numbers")
+    const tbodyNumbers = document.getElementById("tbody-numbers")
     tbodyNumbers.innerHTML = ""
     let switchTable = true
     numbers.forEach(element => {
@@ -217,3 +217,5 @@ const loadComponentTbodyNumbers = () => {
         }
     })
 }
+
+loadComponentTbodyNumbers()
