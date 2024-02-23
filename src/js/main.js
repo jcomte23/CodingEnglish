@@ -1,4 +1,5 @@
 import '../css/style.css'
+import '../css/icons.css'
 
 const btnChangeTheme = document.getElementById("theme-toggle");
 const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
