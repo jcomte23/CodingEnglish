@@ -34,10 +34,10 @@
             <small class="text-center text-xs font-medium capitalize"> Vocabulary</small>
           </a>
 
-          <button id="theme-toggle" type="button" aria-label="btn-changeTheme"
-            class="flex aspect-square min-h-[32px] w-16 flex-col items-center justify-center gap-1 rounded-md p-1.5 hover:text-blue-500 text-gray-700 hover:bg-gray-100 dark:text-white dark:hover:bg-slate-800">
-            <i class="bi bi-moon-stars-fill text-lg" id="theme-toggle-dark-icon"></i>
-            <i class="bi bi-sun-fill text-lg" id="theme-toggle-light-icon"></i>
+          <button type="button" aria-label="btn-changeTheme"
+            class="theme-toggle flex aspect-square min-h-[32px] w-16 flex-col items-center justify-center gap-1 rounded-md p-1.5 hover:text-blue-500 text-gray-700 hover:bg-gray-100 dark:text-white dark:hover:bg-slate-800">
+            <i class="bi bi-moon-stars-fill text-lg theme-toggle-dark-icon"></i>
+            <i class="bi bi-sun-fill text-lg theme-toggle-light-icon"></i>
             <small class="text-center text-xs font-medium capitalize"> Theme </small>
           </button>
 
@@ -81,11 +81,11 @@
         <small class="text-center text-xs font-medium capitalize"> Vocabulary</small>
       </a>
 
-      <button id="theme-toggle" type="button" aria-label="btn-changeTheme"
-        class="flex aspect-square min-h-[32px] w-16 flex-col items-center justify-center gap-1 rounded-md p-1.5 hover:text-blue-500 text-gray-700 hover:bg-gray-100 dark:text-white dark:hover:bg-slate-800">
-        <i class="bi bi-moon-stars-fill text-2xl" id="theme-toggle-dark-icon"></i>
-        <i class="bi bi-sun-fill text-2xl" id="theme-toggle-light-icon"></i>
-        <small class="text-center text-xs font-medium"> Theme </small>
+      <button type="button" aria-label="btn-changeTheme"
+        class="theme-toggle flex aspect-square min-h-[32px] w-16 flex-col items-center justify-center gap-1 rounded-md p-1.5 hover:text-blue-500 text-gray-700 hover:bg-gray-100 dark:text-white dark:hover:bg-slate-800">
+        <i class="bi bi-moon-stars-fill text-lg theme-toggle-dark-icon"></i>
+        <i class="bi bi-sun-fill text-lg theme-toggle-light-icon"></i>
+        <small class="text-center text-xs font-medium capitalize"> Theme </small>
       </button>
 
       <a href="#"
@@ -287,8 +287,10 @@
       </div>
     </div>
   </footer>
-  <script type="module" src="./src/js/translator.js"></script>
+
   <script type="module" src="./src/js/main.js"></script>
+  <script type="module" src="./src/js/translator.js"></script>
+  <script type="module" src="./src/js/theme.js"></script>
 </body>
 
 </html>
