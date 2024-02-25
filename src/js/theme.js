@@ -9,11 +9,19 @@ let isDarkMode = localStorage.getItem('darkMode') === 'true';
 // Aplica el modo oscuro si está activado
 if (isDarkMode) {
     document.documentElement.classList.add('dark');
-    themeToggleLightIcon[0].classList.add("hidden");
-    themeToggleLightIcon[1].classList.add("hidden");
+    if (btnChangeTheme.length === 1) {
+        themeToggleLightIcon[0].classList.add("hidden");
+    } else {
+        themeToggleLightIcon[0].classList.add("hidden");
+        themeToggleLightIcon[1].classList.add("hidden");
+    }
 } else {
-    themeToggleDarkIcon[0].classList.add("hidden");
-    themeToggleDarkIcon[1].classList.add("hidden");
+    if (btnChangeTheme.length === 1) {
+        themeToggleDarkIcon[0].classList.add("hidden");
+    } else {
+        themeToggleDarkIcon[0].classList.add("hidden");
+        themeToggleDarkIcon[1].classList.add("hidden");
+    }
 }
 
 btnChangeTheme[0].addEventListener('click', () => {
@@ -24,10 +32,13 @@ btnChangeTheme[0].addEventListener('click', () => {
     themeToggleDarkIcon[0].classList.toggle("hidden", !isDarkMode);
 });
 
-btnChangeTheme[1].addEventListener('click', () => {
-    isDarkMode = !isDarkMode;
-    localStorage.setItem('darkMode', isDarkMode);
-    document.documentElement.classList.toggle('dark', isDarkMode);
-    themeToggleLightIcon[1].classList.toggle("hidden", isDarkMode);
-    themeToggleDarkIcon[1].classList.toggle("hidden", !isDarkMode);
-});
+if (btnChangeTheme.length > 1) {
+    btnChangeTheme[1].addEventListener('click', () => {
+        isDarkMode = !isDarkMode;
+        localStorage.setItem('darkMode', isDarkMode);
+        document.documentElement.classList.toggle('dark', isDarkMode);
+        themeToggleLightIcon[1].classList.toggle("hidden", isDarkMode);
+        themeToggleDarkIcon[1].classList.toggle("hidden", !isDarkMode);
+    });
+}
+
