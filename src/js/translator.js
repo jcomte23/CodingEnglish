@@ -4,18 +4,18 @@ import Backend from 'i18next-http-backend';
 let language
 
 function updateContent() {
-    const elements = document.querySelectorAll("[data-i18n]");
+    const elements = document.querySelectorAll("[data-i18n]")
     elements.forEach((el) => {
-        const key = el.getAttribute("data-i18n");
+        const key = el.getAttribute("data-i18n")
         el.innerHTML = i18next.t(key);
-    });
+    })
 }
 
 
 if (localStorage.getItem("lang")) {
-    language=localStorage.getItem("lang")
-}else{
-    language="es"
+    language = localStorage.getItem("lang")
+} else {
+    language = "es"
 }
 
 i18next.use(Backend).init(
@@ -34,5 +34,5 @@ i18next.use(Backend).init(
 
 window.changeLanguage = function (lng) {
     i18next.changeLanguage(lng, updateContent);
-    localStorage.setItem("lang",lng)
+    localStorage.setItem("lang", lng)
 };
